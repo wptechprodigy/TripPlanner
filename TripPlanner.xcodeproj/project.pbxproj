@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		04A3753C2D66250100E74A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753B2D66250100E74A7B /* AppDelegate.swift */; };
 		04A3753E2D66250100E74A7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753D2D66250100E74A7B /* SceneDelegate.swift */; };
-		04A375402D66250100E74A7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753F2D66250100E74A7B /* ViewController.swift */; };
+		04A375402D66250100E74A7B /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753F2D66250100E74A7B /* GeneratorViewController.swift */; };
 		04A375432D66250100E74A7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A375412D66250100E74A7B /* Main.storyboard */; };
 		04A375452D66250300E74A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A375442D66250300E74A7B /* Assets.xcassets */; };
 		04A375482D66250300E74A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A375462D66250300E74A7B /* LaunchScreen.storyboard */; };
 		04A3755A2D663A1700E74A7B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375592D663A1700E74A7B /* MainTabBarController.swift */; };
+		04A3755C2D663C3100E74A7B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755B2D663C3100E74A7B /* AddViewController.swift */; };
+		04A3755E2D663C5A00E74A7B /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */; };
+		04A375602D663C7B00E74A7B /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */; };
+		04A375622D663CE300E74A7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375612D663CE300E74A7B /* HomeViewController.swift */; };
 		72A574DF783D7BFCE6394372 /* Pods_TripPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DA976DC63627E8675F8F6F /* Pods_TripPlanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +25,16 @@
 		04A375382D66250100E74A7B /* TripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3753B2D66250100E74A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A3753D2D66250100E74A7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04A3753F2D66250100E74A7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A3753F2D66250100E74A7B /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
 		04A375422D66250100E74A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A375442D66250300E74A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A375472D66250300E74A7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A375492D66250300E74A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A375592D663A1700E74A7B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		04A3755B2D663C3100E74A7B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
+		04A375612D663CE300E74A7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1512F784E3F9FE08DDA6ACFB /* Pods-TripPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripPlanner.debug.xcconfig"; path = "Target Support Files/Pods-TripPlanner/Pods-TripPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 		21A91A7143756EAD1E7D5008 /* Pods-TripPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripPlanner.release.xcconfig"; path = "Target Support Files/Pods-TripPlanner/Pods-TripPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		51DA976DC63627E8675F8F6F /* Pods_TripPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +137,11 @@
 		04A375572D66399400E74A7B /* programmaticUI */ = {
 			isa = PBXGroup;
 			children = (
-				04A3753F2D66250100E74A7B /* ViewController.swift */,
+				04A3753F2D66250100E74A7B /* GeneratorViewController.swift */,
+				04A3755B2D663C3100E74A7B /* AddViewController.swift */,
+				04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */,
+				04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */,
+				04A375612D663CE300E74A7B /* HomeViewController.swift */,
 			);
 			path = programmaticUI;
 			sourceTree = "<group>";
@@ -273,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A375402D66250100E74A7B /* ViewController.swift in Sources */,
+				04A3755C2D663C3100E74A7B /* AddViewController.swift in Sources */,
+				04A375402D66250100E74A7B /* GeneratorViewController.swift in Sources */,
 				04A3753C2D66250100E74A7B /* AppDelegate.swift in Sources */,
+				04A375622D663CE300E74A7B /* HomeViewController.swift in Sources */,
 				04A3755A2D663A1700E74A7B /* MainTabBarController.swift in Sources */,
+				04A375602D663C7B00E74A7B /* PlannerViewController.swift in Sources */,
+				04A3755E2D663C5A00E74A7B /* FavouriteViewController.swift in Sources */,
 				04A3753E2D66250100E74A7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

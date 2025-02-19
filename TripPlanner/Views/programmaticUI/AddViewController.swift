@@ -1,16 +1,17 @@
 //
-//  ViewController.swift
+//  AddViewController.swift
 //  TripPlanner
 //
 //  Created by waheedCodes on 19/02/2025.
 //
 
 import UIKit
-import Alamofire
 
-class ViewController: UIViewController {
-
+class AddViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        title = "Add"
     }
 }
