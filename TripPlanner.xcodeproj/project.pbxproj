@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0448918F2D6888FD0050EC9B /* TripPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448918E2D6888FD0050EC9B /* TripPlannerTests.swift */; };
+		044891962D688B4A0050EC9B /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044891952D688B4A0050EC9B /* FoodItem.swift */; };
 		04A3753C2D66250100E74A7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753B2D66250100E74A7B /* AppDelegate.swift */; };
 		04A3753E2D66250100E74A7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753D2D66250100E74A7B /* SceneDelegate.swift */; };
 		04A375402D66250100E74A7B /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3753F2D66250100E74A7B /* GeneratorViewController.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		0448918C2D6888FC0050EC9B /* TripPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0448918E2D6888FD0050EC9B /* TripPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerTests.swift; sourceTree = "<group>"; };
+		044891952D688B4A0050EC9B /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
 		04A375382D66250100E74A7B /* TripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3753B2D66250100E74A7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A3753D2D66250100E74A7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		04A3754F2D6626DF00E74A7B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				044891952D688B4A0050EC9B /* FoodItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				04A375402D66250100E74A7B /* GeneratorViewController.swift in Sources */,
 				04A3756D2D67346B00E74A7B /* HomeHeaderView.swift in Sources */,
 				04A3753C2D66250100E74A7B /* AppDelegate.swift in Sources */,
+				044891962D688B4A0050EC9B /* FoodItem.swift in Sources */,
 				04A3755A2D663A1700E74A7B /* MainTabBarController.swift in Sources */,
 				04A3756B2D6651C400E74A7B /* PaddedLabel.swift in Sources */,
 				04A375692D66420600E74A7B /* HomeViewController.swift in Sources */,

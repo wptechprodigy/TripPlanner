@@ -78,3 +78,56 @@ The following third-party libraries are used in the project:
 
 These dependencies are managed via CocoaPods . Ensure you run _pod install_ after cloning the repository.
 
+### Project Structure
+The project is organized into the following folders:
+
+- Views : Contains all UI-related files, including both UIKit and SwiftUI views.
+- Models : Defines data models for the API response.
+- Network : Handles API requests and responses.
+- Utilities : Includes helper functions.
+- Extensions: Icludes extensions for added functionalities.
+- Assets : Stores images, fonts, and other resources.
+- Tests : Unit tests for the app's functionality.
+
+### API Integration
+The app integrates with the following API endpoints:
+
+1. Fetch Food Items :
+    - Endpoint : https://assessment.vgtechdemo.com/api/foods
+    - Method : GET
+    - Response : A JSON array of food items with fields like id, title, calories, description, tags, and image_url.
+
+2. Create a Trip :
+    - Endpoint : https://documenter.getpostman.com/view/37114545/2sAYXCkeW7/trips
+    - Method : POST
+    - Request Body : JSON object containing destination, date, and description.
+    - Response : The created trip object.
+    
+### Usage
+**Home Screen**
+- Displays a list of food items fetched from the API.
+- Use the search bar to filter food items (future enhancement).
+- Tap on a  food item to navigate to the Trip Details screen.
+
+**Trip Details Screen**
+(Not implemennted yet)
+- Enter trip details such as destination, date, and description.
+- Tap the "Save" button to send the data to the API.
+- If successful, the app clears the form and displays a success message. If an error occurs, an alert is shown.
+
+### Testing
+**Unit Tests**
+The project includes unit tests for key functionalities such as:
+
+- API request handling.
+- Data model decoding.
+-  UI component behavior.
+
+To run the tests:
+
+- Open the _.xcworkspace_ file in Xcode.
+- Press Command + U to execute all tests.
+
+Manual Testing
+- Test the app on different simulators and devices to ensure responsiveness.
+- Verify that API requests succeed
