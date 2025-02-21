@@ -88,10 +88,12 @@ struct FoodDetailView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Nutrition")
                         .font(.subheadline)
+                        .foregroundStyle(Color.black)
                     HStack {
                         Image(systemName: "flame.fill")
                             .foregroundColor(.red)
                         Text("\(food.calories) Calories")
+                            .foregroundStyle(Color.black)
                     }
                     .font(.subheadline)
                 }
