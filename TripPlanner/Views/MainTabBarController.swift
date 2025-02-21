@@ -18,7 +18,6 @@ class MainTabBarController: UITabBarController {
         let favoriteVC = FavouriteViewController()
         let plannerVC = PlannerViewController()
         
-        homeVC.title = "Home"
         generatorVC.title = "Generator"
         addVC.title = "Add"
         favoriteVC.title = "Favourite"
@@ -38,7 +37,11 @@ class MainTabBarController: UITabBarController {
         
         viewControllers = [homeNav, generatorNav, addNav, favoriteNav, plannerNav]
         
+        view.backgroundColor = .white
+        
         tabBar.tintColor = .systemBlue
         tabBar.barTintColor = .white
+        tabBar.backgroundColor = .white
+        tabBar.isTranslucent = false
     }
 }

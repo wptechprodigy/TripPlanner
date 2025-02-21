@@ -17,7 +17,13 @@
 		04A3755C2D663C3100E74A7B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755B2D663C3100E74A7B /* AddViewController.swift */; };
 		04A3755E2D663C5A00E74A7B /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */; };
 		04A375602D663C7B00E74A7B /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */; };
-		04A375622D663CE300E74A7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375612D663CE300E74A7B /* HomeViewController.swift */; };
+		04A375672D663F7C00E74A7B /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375662D663F7C00E74A7B /* FoodCardView.swift */; };
+		04A375692D66420600E74A7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375682D66420600E74A7B /* HomeViewController.swift */; };
+		04A3756B2D6651C400E74A7B /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3756A2D6651C400E74A7B /* PaddedLabel.swift */; };
+		04A3756D2D67346B00E74A7B /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3756C2D67346B00E74A7B /* HomeHeaderView.swift */; };
+		04A3756F2D678B3A00E74A7B /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3756E2D678B3A00E74A7B /* FoodDetailView.swift */; };
+		04A375712D6851F300E74A7B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375702D6851F300E74A7B /* NetworkManager.swift */; };
+		04A375742D68632C00E74A7B /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A375732D68632C00E74A7B /* UITextField+Extensions.swift */; };
 		72A574DF783D7BFCE6394372 /* Pods_TripPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DA976DC63627E8675F8F6F /* Pods_TripPlanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +40,13 @@
 		04A3755B2D663C3100E74A7B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
-		04A375612D663CE300E74A7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04A375662D663F7C00E74A7B /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+		04A375682D66420600E74A7B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04A3756A2D6651C400E74A7B /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		04A3756C2D67346B00E74A7B /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		04A3756E2D678B3A00E74A7B /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		04A375702D6851F300E74A7B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04A375732D68632C00E74A7B /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		1512F784E3F9FE08DDA6ACFB /* Pods-TripPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripPlanner.debug.xcconfig"; path = "Target Support Files/Pods-TripPlanner/Pods-TripPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 		21A91A7143756EAD1E7D5008 /* Pods-TripPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripPlanner.release.xcconfig"; path = "Target Support Files/Pods-TripPlanner/Pods-TripPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		51DA976DC63627E8675F8F6F /* Pods_TripPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +85,7 @@
 		04A3753A2D66250100E74A7B /* TripPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				04A375722D68630F00E74A7B /* Extensions */,
 				04A375542D66276200E74A7B /* Assets */,
 				04A375532D66275000E74A7B /* Utilities */,
 				04A375522D66273200E74A7B /* Network */,
@@ -108,6 +121,7 @@
 		04A375522D66273200E74A7B /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				04A375702D6851F300E74A7B /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -137,11 +151,12 @@
 		04A375572D66399400E74A7B /* programmaticUI */ = {
 			isa = PBXGroup;
 			children = (
+				04A375652D663F5A00E74A7B /* subviews */,
 				04A3753F2D66250100E74A7B /* GeneratorViewController.swift */,
 				04A3755B2D663C3100E74A7B /* AddViewController.swift */,
 				04A3755D2D663C5A00E74A7B /* FavouriteViewController.swift */,
 				04A3755F2D663C7B00E74A7B /* PlannerViewController.swift */,
-				04A375612D663CE300E74A7B /* HomeViewController.swift */,
+				04A375682D66420600E74A7B /* HomeViewController.swift */,
 			);
 			path = programmaticUI;
 			sourceTree = "<group>";
@@ -149,8 +164,27 @@
 		04A375582D6639B300E74A7B /* swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				04A3756E2D678B3A00E74A7B /* FoodDetailView.swift */,
 			);
 			path = swiftUI;
+			sourceTree = "<group>";
+		};
+		04A375652D663F5A00E74A7B /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+				04A375662D663F7C00E74A7B /* FoodCardView.swift */,
+				04A3756A2D6651C400E74A7B /* PaddedLabel.swift */,
+				04A3756C2D67346B00E74A7B /* HomeHeaderView.swift */,
+			);
+			path = subviews;
+			sourceTree = "<group>";
+		};
+		04A375722D68630F00E74A7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04A375732D68632C00E74A7B /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2A523B0E1FBB260AD045407B /* Pods */ = {
@@ -287,11 +321,17 @@
 			files = (
 				04A3755C2D663C3100E74A7B /* AddViewController.swift in Sources */,
 				04A375402D66250100E74A7B /* GeneratorViewController.swift in Sources */,
+				04A3756D2D67346B00E74A7B /* HomeHeaderView.swift in Sources */,
 				04A3753C2D66250100E74A7B /* AppDelegate.swift in Sources */,
-				04A375622D663CE300E74A7B /* HomeViewController.swift in Sources */,
 				04A3755A2D663A1700E74A7B /* MainTabBarController.swift in Sources */,
+				04A3756B2D6651C400E74A7B /* PaddedLabel.swift in Sources */,
+				04A375692D66420600E74A7B /* HomeViewController.swift in Sources */,
+				04A375742D68632C00E74A7B /* UITextField+Extensions.swift in Sources */,
 				04A375602D663C7B00E74A7B /* PlannerViewController.swift in Sources */,
 				04A3755E2D663C5A00E74A7B /* FavouriteViewController.swift in Sources */,
+				04A3756F2D678B3A00E74A7B /* FoodDetailView.swift in Sources */,
+				04A375712D6851F300E74A7B /* NetworkManager.swift in Sources */,
+				04A375672D663F7C00E74A7B /* FoodCardView.swift in Sources */,
 				04A3753E2D66250100E74A7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

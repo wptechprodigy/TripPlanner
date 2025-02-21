@@ -6,4 +6,5 @@ target 'TripPlanner' do
   # Pods for TripPlanner
   pod 'Alamofire', '~> 5.4'
   pod 'Kingfisher', '~> 7.0'
+  pod 'SDWebImageSwiftUI'
 end
