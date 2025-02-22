@@ -52,7 +52,7 @@ This project was developed as part of an iOS Developer Interview Test. It adhere
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/wptechprodigy/TripPlanner
    ```
 2. **Install Dependencies**:
     Navigate to the project directory and install the required dependencies using CocoaPods:
